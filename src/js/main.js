@@ -97,7 +97,7 @@ function listPost(post) {
       <a href="#" class="mr-4"><img src="${works.image}" alt="" ></a>
       <div class="">
       <div>
-        <h3 class="font-bold text-3xl"><a href="#" >${works.name}</a></h3>
+        <h3 class="font-bold text-3xl"><a href="./work-two.html?id=${works.id}" >${works.name}</a></h3>
       </div>
       <div class="my-6">
         <span class="inline-block mx-1 px-4 text-lg font-black  rounded-[26px] text-white bg-[#142850] ">${works.date}</span>
