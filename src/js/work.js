@@ -39,15 +39,15 @@ const work = [
       const works = work[i];
       result+= `
       <div class=" border-b border-[#E0E0E0]">
-      <div class="flex mb-4 py-4 mt-4 ">
-      <a href="#" class="mr-4"><img src="${works.image}" alt="" ></a>
+      <div class="md:flex mb-4 py-4 mt-4  ">
+     <img src="${works.image}" alt="" class="w-full md:w-[248px] mr-4 ">
       <div class="">
       <div>
-        <h3 class="font-bold text-3xl"><a href="#" >${works.name}</a></h3>
+        <h3 class="font-bold text-3xl my-4"><a href="work-two.html" >${works.name}</a></h3>
       </div>
-      <div class="my-6">
-        <span class="inline-block mx-1 px-4 text-lg font-black  rounded-[26px] text-white bg-[#142850] ">${works.date}</span>
-        <span class="inline-block mx-1 px-4 text-xl font-normal  rounded-[26px] text-[#8695A4] ">${works.short_description}</span>
+      <div class="my-4">
+        <span class="inline-block mx-1 px-2 text-lg font-black  rounded-[26px] text-white bg-[#142850] ">${works.date}</span>
+        <span class="inline-block mx-1 px-2 text-xl font-normal  rounded-[26px] text-[#8695A4] ">${works.short_description}</span>
       </div>
       <div>
         <p class="font-normal leading-6">${works.description}</p>

@@ -35,11 +35,11 @@ const blog = [
             const blogs = blog[i];
             result += `
             <div class=" border-b border-[#E0E0E0] flex mt-8">
-            <div class="basis-[65%] bg-white ">
+            <div class=" bg-white ">
          <h3 class="font-bold text-[32px] leading-[38px ">${blogs.title}</h3>
          <span class=" my-2 mr-2 inline-block text-lg font-normal relative after:content-[''] after:border-solid after:w-[1px] after:h-[24px] 
-        after:bg-black after:block after:absolute after:top-[50%] after:translate-y-[-50%] after:right-[-25px]  ">${blogs.date}</span>
-         <span class=" my-2 mx-9 inline-block text-lg font-normal text-[#8695A4]">${blogs.short_description}</span>
+        after:bg-black after:block after:absolute after:top-[50%] after:translate-y-[-50%] after:right-[-18px] md:after:right-[-25px]  ">${blogs.date}</span>
+         <span class=" my-2 mx-5 md:mx-9 inline-block  text-lg font-normal text-[#8695A4]">${blogs.short_description}</span>
          <p class=" font-normal text-base mb-8 text-left">${blogs.description}</p>
          </div>
          </div>`
