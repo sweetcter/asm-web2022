@@ -1,10 +1,8 @@
 const user ={
-  id: 1,
+  
   name: 'Hi, I am John,',
   description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
-  age: '',
   job: 'Creative Technologist',
-  address: '',
   image: './src/img/Ellipse 1.png'
 
 }
@@ -12,14 +10,14 @@ const user ={
 
 const post = [
   {
-    id: 1,
+    id: 4,
     title: 'Making a design system from scratch',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
     date: '12 Feb 2020',
     short_description: 'Design, Pattern',
   },
   {
-    id: 2,
+    id: 5,
     title: 'Creating pixel perfect icons in Figma',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
     date: '12 Feb 2020',
@@ -61,8 +59,8 @@ function users(user) {
       <button class="border font-normal text-[20px] text-white rounded px-4 py-2 mb-8 bg-[#FF6464] leading-[29px]  md:ml-0">Download Resume</button>
       </div>
       </div>
-      <div class="user__img flex m-auto ">
-     <img src="${user.image}" alt="" class="w-[243px] h-[243px] inline-block text-center ">
+      <div class="user__img flex justify-center">
+     <img src="${user.image}" alt="" class="w-[243px] h-[243px]  ">
       </div>`
 
   return result;
@@ -81,9 +79,9 @@ function listPost(post) {
          <span class="mx-4 md:mx-5 my-5 inline-block text-base md:text-lg font-normal">${posts.short_description}</span>
          <p class="mx-6 font-normal text-base  text-left">${posts.description}</p>
          </div>`
-  }
+  };
   return result;
-}
+};
 function listWork(work) {
   if (!Array.isArray(work) || work.length == 0) return false
   let result = '';
@@ -95,7 +93,7 @@ function listWork(work) {
       <img src="${works.image}" alt="" class="mr-4 w-full md:w-[248px]" >
       <div class="">
       <div>
-        <h3 class="font-bold text-3xl my-2"><a href="./work.html?id=${works.id}" >${works.name}</a></h3>
+        <h3 class="font-bold text-3xl my-2"><a href="./work-two.html?id=${works.id}">${works.name}</a></h3>
       </div>
       <div class="my-6">
         <span class="inline-block mx-1 px-4 text-lg font-black  rounded-[26px] text-white bg-[#142850] ">${works.date}</span>
@@ -120,4 +118,11 @@ function render(elementId, content) {
 render('user', users(user));
 render('post', listPost(post));
 render('work', listWork(work));
+
+const menu = document.getElementById('menu');
+const navmenu = document.getElementById('navmenu');
+
+navmenu.addEventListener('click', function() {
+  menu.classList.toggle("hidden");
+});
 

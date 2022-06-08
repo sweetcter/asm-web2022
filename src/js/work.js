@@ -43,7 +43,7 @@ const work = [
      <img src="${works.image}" alt="" class="w-full md:w-[248px] mr-4 ">
       <div class="">
       <div>
-        <h3 class="font-bold text-3xl my-4"><a href="work-two.html" >${works.name}</a></h3>
+        <h3 class="font-bold text-3xl my-4"><a href="work-two.html?id=${works.id}" >${works.name}</a></h3>
       </div>
       <div class="my-4">
         <span class="inline-block mx-1 px-2 text-lg font-black  rounded-[26px] text-white bg-[#142850] ">${works.date}</span>
@@ -66,3 +66,10 @@ const work = [
     };
   };
   render('work',listWork(work));
+
+const menu = document.getElementById('menu');
+const navmenu = document.getElementById('navmenu');
+
+navmenu.addEventListener('click', function() {
+  menu.classList.toggle("hidden");
+});

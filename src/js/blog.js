@@ -53,4 +53,9 @@ const blog = [
          }
      }
      render('blog', listBlog(blog));
-    
+     const menu = document.getElementById('menu');
+     const navmenu = document.getElementById('navmenu');
+     
+     navmenu.addEventListener('click', function() {
+       menu.classList.toggle("hidden");
+     });
