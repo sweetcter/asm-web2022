@@ -1,4 +1,4 @@
-const user ={
+const user = {
   name: 'Hi, I am John,',
   description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
   job: 'Creative Technologist',
@@ -46,8 +46,8 @@ const work = [
     short_description: 'Typography',
   },
 ];
-function users(user) {  
-   let result = `<div class="user__info md:basis-3/6  ">
+function users(user) {
+  let result = `<div class="user__info md:basis-3/6">
       <h2 class="font-bold text-[44px] text-[#21243D]  text-center md:text-left md:m-0 ">${user.name}</h2>
       <h2 class="font-bold text-[44px] text-[#21243D] text-center md:text-left">${user.job}</h2>
       <p class="font-normal text-base text-[#21243D] leading-6 my-8 text-center md:text-left">${user.description}</p>
@@ -118,7 +118,7 @@ render('work', listWork(work));
 const menu = document.getElementById('menu');
 const navmenu = document.getElementById('navmenu');
 
-navmenu.addEventListener('click', function() {
+navmenu.addEventListener('click', function () {
   menu.classList.toggle("hidden");
 });
 
