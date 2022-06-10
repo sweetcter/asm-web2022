@@ -68,12 +68,12 @@ function listPost(post) {
   let result = '';
   for (let i = 0; i < post.length; i++) {
     const posts = post[i];
-    result += `<div class="basis-3/6 bg-white my-6 mx-2 py-4">
+    result += `<div class="basis-3/6 bg-white my-6 mx-2 py-8">
          <h3 class="font-bold text-[22px] md:text-[32px] leading:[30px] md:leading-[38px] mx-6"><a href="#">${posts.title}</a></h3>
          <span class="mx-4 md:mx-5 my-5 inline-block  text-base md:text-lg font-normal relative after:content-[''] after:border-solid after:w-[1px] after:h-[24px] 
         after:bg-black after:block after:absolute after:top-[50%] after:translate-y-[-50%] after:right-[-19px] md:after:right-[-25px]  ">${posts.date}</span>
          <span class="mx-4 md:mx-5 my-5 inline-block text-base md:text-lg font-normal">${posts.short_description}</span>
-         <p class="mx-6 font-normal text-base  text-left">${posts.description}</p>
+         <p class="mx-6 font-normal text-base leading-[23.5px]  text-left">${posts.description}</p>
          </div>`
   };
   return result;
