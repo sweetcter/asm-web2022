@@ -4,7 +4,7 @@ const id = new URLSearchParams(window.location.search).get('id');
 const work = [
   {
     id: 1,
-    image: './src/img/Rectangle 4.png',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915203/img/Rectangle_4_skwnco.png',
     name: 'Designing Dashboards with usability in mind',
     date: '2020',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
@@ -12,7 +12,7 @@ const work = [
   },
   {
     id:2,
-    image: './src/img/Rectangle 5.png',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915203/img/Rectangle_5_slkvj9.png',
     name: 'Vibrant Portraits of 2020',
     date: '2018',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
@@ -21,7 +21,7 @@ const work = [
   },
   {
     id: 3,
-    image: './src/img/Rectangle 6.png',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915202/img/Rectangle_6_ovrf2o.png',
     name: '36 Days of Malayalam type',
     date: '2022',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
@@ -30,7 +30,7 @@ const work = [
   },
   {
     id: 4,
-    image: './src/img/Rectangle 40.png',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915204/img/Rectangle_40_iagl0w.png',
     name: 'Components',
     date: '2022',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
