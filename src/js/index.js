@@ -46,6 +46,7 @@ const work = [
     short_description: 'Typography',
   },
 ];
+
 function users(user) {
   let result = `<div class="user__info md:basis-3/6">
       <h2 class="font-bold text-[44px] text-[#21243D]  text-center md:text-left md:m-0 ">${user.name}</h2>
@@ -56,7 +57,7 @@ function users(user) {
       </div>
       </div>
       <div class="user__img flex justify-center">
-     <img src="${user.image}" alt="" class="w-[243px] h-[243px]">
+     <img src="${user.image}" alt="" class="w-[243px] h-[243px] rounded-full shadow-[-10px_13px_#EDF7FA]">
       </div>`
 
   return result;
