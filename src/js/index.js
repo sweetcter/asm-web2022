@@ -23,7 +23,7 @@ const post = [
 const work = [
   {
     id: 1,
-    image: './src/img/Rectangle 30.jpg',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915203/img/Rectangle_30_nhypnv.jpg',
     name: 'Designing Dashboards',
     date: '2020',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
@@ -31,7 +31,7 @@ const work = [
   },
   {
     id: 2,
-    image: './src/img/Rectangle 32.jpg',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915203/img/Rectangle_32_alrsrm.jpg',
     name: 'Vibrant Portraits of 2020',
     date: '2018',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
@@ -39,7 +39,7 @@ const work = [
   },
   {
     id: 3,
-    image: './src/img/Rectangle 34.jpg',
+    image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915204/img/Rectangle_34_sv9cth.jpg',
     name: '36 Days of Malayalam type',
     date: '2018',
     description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
