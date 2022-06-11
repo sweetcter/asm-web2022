@@ -2,7 +2,7 @@ const user = {
   name: 'Hi, I am John,',
   description: 'Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.',
   job: 'Creative Technologist',
-  image: '../src/img/Ellipse 1.png'
+  image: 'https://res.cloudinary.com/dat-nguyen/image/upload/v1654915203/img/Ellipse_1_zpaddk.png'
 }
 const post = [
   {
