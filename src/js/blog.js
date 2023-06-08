@@ -4,7 +4,7 @@ const blog = [
         title: 'UI Interactions of the week',
         description: 'This is my blog about technology news and games you can check it out according to the information below.',
         date: '12 Feb 2019',
-        short_description: 'http://hackerlord.id.vn/',
+        short_description: 'GTG360',
     },
     {
 
